@@ -1,12 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Blog personal de Juan Pérez sobre desarrollo web, diseño y tecnología." />
+  <title>Blog Personal | Juan Pérez</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <h1>Pagina Principal de Tecnologias de Internet</h1>
-    <p>Edgar Apaza Mamani</p>
+  <header role="banner">
+    <nav aria-label="Menú principal">
+      <ul class="nav">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <h1 id="inicio">Blog Personal de Juan Pérez</h1>
+  </header>
+
+  <main>
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>Soy Juan, desarrollador web apasionado por la accesibilidad, el diseño y la escritura.</p>
+    </section>
+
+    <section id="blog">
+      <h2>Últimos artículos</h2>
+
+      <article>
+        <header>
+          <h3><a href="#">Cómo empezar con HTML5</a></h3>
+          <p><time datetime="2025-09-01">1 de septiembre de 2025</time> — Publicado por Juan Pérez</p>
+        </header>
+        <p>En este artículo veremos los fundamentos del HTML5 y cómo aplicarlos correctamente...</p>
+        <a href="#" class="btn">Leer más</a>
+      </article>
+
+      <!-- Más artículos... -->
+    </section>
+  </main>
+
+  <aside aria-label="Redes sociales">
+    <h2>Sígueme</h2>
+    <ul>
+      <li><a href="#" aria-label="Instagram de Juan Pérez">Instagram</a></li>
+      <li><a href="#" aria-label="Twitter de Juan Pérez">Twitter</a></li>
+    </ul>
+  </aside>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 Juan Pérez. Todos los derechos reservados.</p>
+  </footer>
+
+ 
 </body>
 </html>
